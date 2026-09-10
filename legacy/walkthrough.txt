@@ -1,5 +1,3 @@
 look
-examine sign
-examine booth
-take sign
-look
+x welcome sign
+x ticket booth

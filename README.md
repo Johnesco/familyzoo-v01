@@ -1,32 +1,31 @@
-# Family Zoo — v01 — A Single Room
+# Family Zoo — v01: A Single Room
 
-The simplest possible Sharpee story: one room with a welcome sign and ticket booth. Introduces the Story class structure, entities, and the four essential traits needed to stand up a world.
+The smallest Chord story that runs: a header that names the work, one room, and two pieces of scenery you can examine. Everything else in the tutorial is added to this.
 
-Step 1 of the [Family Zoo](https://github.com/Johnesco/familyzoo) tutorial — a progressive walkthrough of the [Sharpee](https://sharpee.net) TypeScript interactive fiction engine, from a single room to a full multi-file story.
+Step 1 of sixteen in the [Family Zoo](https://github.com/Johnesco/familyzoo) tutorial for [Chord](https://sharpee.net/chord/), the authoring language of the [Sharpee](https://sharpee.net) interactive fiction engine.
 
-## What this step teaches
+## What this step adds
 
-- Story interface with config, createPlayer, and initializeWorld
-- IdentityTrait for names, descriptions, and aliases
-- ActorTrait with isPlayer flag and ContainerTrait for inventory
-- SceneryTrait and RoomTrait basics
-- Explicit entity placement via world.moveEntity
+- The `story` header — `title`, `authors`, `id`, `description`
+- `create the <Room>` with `a room` and an indented description
+- `scenery` for things that belong to the room and cannot be taken
+- `in the <Room>` to place a thing
+- `before the game starts` naming who the player is
 
-## Playing
+## The source
 
-Open `play.html`, or preview the folder:
+The whole step is one file: [`familyzoo-v01.story`](./familyzoo-v01.story) — the step before it plus the ideas above. The chapter that walks through it is [`docs/v01-a-single-room.md`](./docs/v01-a-single-room.md).
 
-```bash
-python -m http.server 8000 --directory familyzoo-v01
-```
-
-## Building
-
-This is a **frozen 0.9.x TypeScript version**. The built player in this folder is the published artifact; it is re-laid from `browser/` by the workspace build:
+## Playing and testing
 
 ```bash
-python ../tools/build.py familyzoo-v01
-python C:/code/ifhub/tools/ship.py familyzoo-v01
+npx sharpee play
+npx sharpee test          # replays familyzoo-v01.tests.json
+python ../tools/build.py familyzoo-v01 --force
 ```
 
-The authoring tree for every version lives in the [familyzoo](https://github.com/Johnesco/familyzoo) repo.
+## Engine
+
+Pinned to `@sharpee/*` **5.3.0** (Chord 3.6.0), held there by an `overrides` block: 5.3.1 publishes broken subpath exports and breaks `sharpee test`.
+
+The 0.9.x TypeScript edition this replaced is kept in [`legacy/`](./legacy).

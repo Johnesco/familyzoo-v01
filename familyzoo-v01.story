@@ -3,7 +3,7 @@ story
   authors:
     John Googol
   id: familyzoo-v01
-  ifid: 112850E5-4ED3-4A8D-B7C9-FCA63EC957A8
+  ifid: 6912A4F0-E140-4A62-B115-A25AEDC56297
   story-version: 0.0.2
   description: Sharpee tutorial step 1 — the story header, one room, and scenery you can examine.
 
@@ -13,17 +13,13 @@ create the Zoo Entrance
 
   first time
     Your family piles out of the car, buzzing with excitement — a
-    whole day at the zoo! You straighten the strap of your backpack
-    and take it all in. You stand before the wrought-iron gates of
+    whole day at the zoo! You stand before the wrought-iron gates of
     the Willowbrook Family Zoo. A cheerful welcome sign arches over
-    the entrance, and a small ticket booth sits to one side. A
-    sturdy iron fence runs along either side of the gates. The main
-    path leads south into the zoo grounds.
+    the entrance, and a small ticket booth sits to one side.
 
   You stand before the wrought-iron gates of the Willowbrook Family Zoo.
   A cheerful welcome sign arches over the entrance, and a small ticket
-  booth sits to one side. A sturdy iron fence runs along either side of
-  the gates. The main path leads south into the zoo grounds.
+  booth sits to one side.
 
 create Alex
   a person
