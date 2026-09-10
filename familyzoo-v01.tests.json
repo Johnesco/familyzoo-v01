@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "story": "familyzoo-v01",
+  "seed": 42,
+  "cards": [
+    {
+      "type": "opening",
+      "assertions": {
+        "channels": [
+          {
+            "id": "info.title",
+            "is": "Family Zoo (v01 — A Single Room)"
+          },
+          {
+            "id": "info.description",
+            "is": "Sharpee tutorial step 1 — the story header, one room, and scenery you can examine."
+          }
+        ]
+      }
+    },
+    {
+      "type": "boot",
+      "assertions": {
+        "contains": [
+          "Zoo Entrance",
+          "Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You st"
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "look",
+      "assertions": {
+        "contains": [
+          "Zoo Entrance",
+          "You stand before the wrought-iron gates of the Willowbrook Family Zoo. A cheerful welcome "
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "x welcome sign",
+      "assertions": {
+        "contains": [
+          "A brightly painted wooden sign reads: \"WELCOME TO WILLOWBROOK FAMILY ZOO.\""
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "x ticket booth",
+      "assertions": {
+        "contains": [
+          "A small wooden booth with a \"Self-Guided Tours\" sign."
+        ]
+      }
+    }
+  ]
+}
