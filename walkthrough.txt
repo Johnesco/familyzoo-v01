@@ -9,4 +9,3 @@ x ticket booth
 take welcome sign
 take ticket booth
 score
-inventory

@@ -7,7 +7,7 @@
 # to, and any verb the story defines itself. Refusals are coverage too
 # — taking scenery should fail, and the transcript records that it did.
 #
-# 1 of 1 rooms swept, 2 of 3 things exercised, 12 commands.
+# 1 of 1 rooms swept, 2 of 3 things exercised, 11 commands.
 #
 # Not exercised — held inside a closed thing, carried from the
 # start, or the player character itself: Alex.
@@ -25,4 +25,3 @@
 > take welcome sign
 > take ticket booth
 > score
-> inventory
