@@ -8,5 +8,33 @@ You stand before the wrought-iron gates of the Willowbrook Family Zoo. A cheerfu
 > x welcome sign
 A brightly painted wooden sign reads: "WELCOME TO WILLOWBROOK FAMILY ZOO."
 
+> x sign
+A brightly painted wooden sign reads: "WELCOME TO WILLOWBROOK FAMILY ZOO."
+
 > x ticket booth
 A small wooden booth with a "Self-Guided Tours" sign.
+
+> x booth
+A small wooden booth with a "Self-Guided Tours" sign.
+
+> look
+Zoo Entrance
+You stand before the wrought-iron gates of the Willowbrook Family Zoo. A cheerful welcome sign arches over the entrance, and a small ticket booth sits to one side.
+
+> x welcome sign
+A brightly painted wooden sign reads: "WELCOME TO WILLOWBROOK FAMILY ZOO."
+
+> x ticket booth
+A small wooden booth with a "Self-Guided Tours" sign.
+
+> take welcome sign
+The welcome sign is fixed in place.
+
+> take ticket booth
+The ticket booth is fixed in place.
+
+> score
+This isn't that kind of game.
+
+> inventory
+You aren't carrying anything.
