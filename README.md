@@ -20,12 +20,12 @@ The whole step is one file: [`familyzoo-v01.story`](./familyzoo-v01.story) — t
 
 ```bash
 npx sharpee play
-npx sharpee test          # replays familyzoo-v01.tests.json
+npx sharpee test          # replays familyzoo-v01.tests/
 python ../tools/build.py familyzoo-v01 --force
 ```
 
 ## Engine
 
-Pinned to `@sharpee/*` **5.3.0** (Chord 3.6.0), held there by an `overrides` block: 5.3.1 publishes broken subpath exports and breaks `sharpee test`.
+Pinned in `package.json`, held across the whole `@sharpee/*` scope by an `overrides` block.
 
 The 0.9.x TypeScript edition this replaced is kept in [`legacy/`](./legacy).

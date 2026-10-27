@@ -29,6 +29,7 @@ create Alex
   Just an ordinary visitor to the zoo.
 
 create the welcome sign
+  a thing
   aka sign
   scenery
   in the Zoo Entrance
@@ -37,6 +38,7 @@ create the welcome sign
   ZOO."
 
 create the ticket booth
+  a thing
   aka booth
   scenery
   in the Zoo Entrance
