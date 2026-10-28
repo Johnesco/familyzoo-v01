@@ -14,7 +14,7 @@ Step 1 of sixteen in the [Family Zoo](https://github.com/Johnesco/familyzoo) tut
 
 ## The source
 
-The whole step is one file: [`familyzoo-v01.story`](./familyzoo-v01.story) — the step before it plus the ideas above. The chapter that walks through it is [`docs/v01-a-single-room.md`](./docs/v01-a-single-room.md).
+The whole step is one file: [`familyzoo-v01.story`](./familyzoo-v01.story) — the step before it plus the ideas above. Where it sits in the trail is on the [group page](https://johnesco.github.io/familyzoo/#familyzoo-v01).
 
 ## Playing and testing
 
